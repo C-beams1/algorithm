@@ -1,0 +1,11 @@
+price = [799, 1024, 200, 800]
+max_price = max(price)
+min_price = min(price)
+price.append(900)
+price.remove(800)
+len_price = len(price)
+sorted_price = sorted(price)
+print(max_price)
+print(min_price)
+print(len_price)
+print(sorted_price)
